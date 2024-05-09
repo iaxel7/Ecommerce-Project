@@ -8,7 +8,7 @@ function validateForm() {
     // Regular expression to check if the email format is valid
     var emailRegex = /\S+@\S+\.\S+/;
     
-    // Check if any of the fields are empty
+    // Check if any of the fields are empty. .trim() removes whitespace
     if (name.trim() == "" || email.trim() == "" || message.trim() == "") {
       // If any field is empty, show an alert message and prevent form submission
       alert("Please fill out all fields");
