@@ -1,0 +1,59 @@
+.hcont {
+    height: 55vh;
+    width: 100%;
+    background-image: url(img/groupskaters.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+    margin-bottom: 100px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.shopnow {
+
+    position: absolute;
+    left: 34%;
+    top: 35%;
+    font-size: 3rem;
+    padding: 30px;
+    border: 11px solid;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 150px;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+    border-radius: 15px;
+  }
+  
+  .product-item:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+    transform: scale(1.05);
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  @media (max-width: 800px) {
+    .shopnow {
+      position: absolute;
+      left: 50%; /* Place the element horizontally at the center */
+      top: 40%; /* Place the element vertically at the center */
+      transform: translate(-50%, -50%); /* Adjust the position to center the element */
+      z-index: 0;
+    }
+}
+
+

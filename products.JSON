@@ -1,0 +1,86 @@
+[
+   {
+    "image":"product-img/yuji-skate.jpg",
+    "title": "Yuji Skateboard Deck",
+    "price": "$15.99",
+    "description": "Custom skate deck with art from the hit anime Jujutsu Kaisen"
+   },
+
+{
+    "image" : "product-img/zamasu-skate.jpg",
+    "title":"Zamasu Skateboard Deck",
+    "price":"$15.99",
+    "description":"Custom skate deck with art from hit show Dragon-Ball Super."
+},
+
+{
+    "image": "product-img/black-skate-deck.jpg",
+    "title": "Black skate deck",
+    "price" : "$13.99",
+    "description": "Basic high quality black skate deck."
+},
+
+{
+    "image": "product-img/maple-skate-deck.jpg",
+    "title": "Maple Blank Skate Deck",
+    "price": "$13.99",
+    "description": "Blank skate deck made from quality maple wood."
+},
+
+{
+
+    "image":"product-img/forest-design-longboard.jpg",
+    "title" : "Forest Longboard",
+    "price" : "$89.99",
+    "description" : "Cruise smoothly with our incredibly artistic longboards."
+},
+
+{
+    "image":"product-img/dragon-longboard.jpg",
+    "title" : "Dragon Longboard",
+    "price" : "$89.99",
+    "description" : "Cruise smoothly with our incredibly artistic longboards."
+},
+
+{
+    "image":"product-img/black-longboard.jpg",
+    "title" : "Black Longboard",
+    "price" : "$89.99",
+    "description" : "Cruise smoothly with our sleek black longboard design."
+},
+
+{
+    "image":"product-img/longboard-white-trucks.jpg",
+    "title" : "White Trucks",
+    "price" : "$49.99",
+    "description" : "High quality longboard trucks designed for performance."
+},
+
+{
+    "image":"product-img/longboard-wheels.jpg",
+    "title" : "Blue Performance Wheels",
+    "price" : "$19.99",
+    "description" : "Smooth,high quality longboard wheels"
+},
+
+{
+    "image":"product-img/fortune-cream-shirt.jpg",
+    "title" : "Oversized Fortune Shirt",
+    "price" : "$19.99",
+    "description" : "Comfortable, Stylish, Quality shirt with oversized fit"
+},
+
+{
+    "image":"product-img/loose-cream-shirt.jpg",
+    "title" : "Oversized Cream Shirt",
+    "price" : "$19.99",
+    "description" : "Comfortable, Stylish, Quality shirt with oversized fit"
+},
+
+{
+    "image":"product-img/skate-tool.jpg",
+    "title" : "Skate Multi-Tool",
+    "price" : "$12.99",
+    "description" : "Multi-Tool designed for skateboards" 
+}
+]
