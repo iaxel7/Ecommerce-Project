@@ -5,50 +5,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: aliceblue;
-    padding: 20px;
-    position: sticky;
-    height: 100px;
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,0.2);
-}
 
-.navbar a {
-    text-decoration: none;
-    color: inherit;
-    padding-right: 20px;
-}
-
-.logo {
-    margin-right: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-}
-
-.list {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-    margin-right: 100px;
-}
-
-#toggler,
-    .navbar label{
-        display: none;
-    }
-
-.menu-icon{
-    display: block;
-    cursor: pointer;
-    font-size: 24px;
-    line-height: 24px;
-    margin: 10px;
-    color: #000;
-} */
 
 .hero-carousel {
     display: flex;
