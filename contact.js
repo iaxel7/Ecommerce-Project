@@ -6,8 +6,15 @@ function validateForm() {
     var message = document.getElementById("message").value;
     
     // Regular expression to check if the email format is valid
-    var emailRegex = /\S+@\S+\.\S+/;
-    
+    var emailRegex = /\S+@\S+\.\S+/;        // /S+ ensures there are one or more white-space characters.this ensures there are char before the @
+    // @ indicates the separation of the local vs domain part of email
+    // \S+ ensures there are char after the @
+    // /. Matches the period symbol this is used to represent the dot in "".com"
+    // /S+ ensures there are char after the . 
+
+
+
+
     // Check if any of the fields are empty. .trim() removes whitespace
     if (name.trim() == "" || email.trim() == "" || message.trim() == "") {
       // If any field is empty, show an alert message and prevent form submission
